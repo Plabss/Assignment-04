@@ -122,3 +122,23 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+#secondPage{
+    display:none;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 150px;
+}
+#secondPage h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: blue;
+    
+}
+#secondPage h1 i{
+    color: #52AF3A;
+}
+
+#secondPage p{
+    font-size: 25px;
+    color: slateblue;
+}
