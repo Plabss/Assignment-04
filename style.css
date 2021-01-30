@@ -126,7 +126,8 @@ nav ul li a:hover, a.active{
     display:none;
     border-radius: 40px;
     box-shadow: 5px 5px 10px gray;
-    padding: 150px;
+    padding-top: 100px;
+    padding-bottom: 30px;
 }
 #secondPage h1{
     font-size: 50px;
@@ -140,5 +141,10 @@ nav ul li a:hover, a.active{
 
 #secondPage p{
     font-size: 25px;
-    color: slateblue;
+    color: yellowgreen;
+    font-weight: 500;
+}
+.mt-2{
+    font-size: 40px;
+    color: darkorange;
 }

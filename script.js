@@ -1,20 +1,20 @@
-function increment(numberOf) {
-    var number = document.getElementById(numberOf).value;
+function increment(numberOfClick) {
+    var number = document.getElementById(numberOfClick).value;
     number = parseInt(number);
     number = number + 1;
-    document.getElementById(numberOf).value = number;
+    document.getElementById(numberOfClick).value = number;
 
     costCalculation();
 }
 
 
-function decrement(numberOf) {
-    var number = document.getElementById(numberOf).value;
+function decrement(numberOfClick) {
+    var number = document.getElementById(numberOfClick).value;
     number = parseInt(number);
     if (number > 0) {
         number = number - 1;
     }
-    document.getElementById(numberOf).value = number;
+    document.getElementById(numberOfClick).value = number;
 
     costCalculation();
 }
