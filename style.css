@@ -55,6 +55,7 @@ nav ul li a:hover, a.active{
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     font-weight: 500;
+    color: springgreen;
 }
 .booking-form{
     background-color: #fff;
@@ -107,6 +108,9 @@ nav ul li a:hover, a.active{
     padding: 2px;
     margin: 10px 10px 0px 0px;
     word-spacing: 20px;
+}
+.booking-content p{
+    color: ghostwhite;
 }
 .btn-style{
     display: block;
